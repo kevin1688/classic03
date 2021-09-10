@@ -11,6 +11,10 @@
 		66A2096226EB87CA00851231 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A2096126EB87CA00851231 /* ContentView.swift */; };
 		66A2096426EB87CB00851231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A2096326EB87CB00851231 /* Assets.xcassets */; };
 		66A2096726EB87CB00851231 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A2096626EB87CB00851231 /* Preview Assets.xcassets */; };
+		66A2096F26EB8F6300851231 /* UnifrakturMaguntia in Resources */ = {isa = PBXBuildFile; fileRef = 66A2096E26EB8F6300851231 /* UnifrakturMaguntia */; };
+		66A2097126EB90A300851231 /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = 66A2097026EB90A300851231 /* Montserrat */; };
+		66A2097326EB91D500851231 /* MySizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A2097226EB91D500851231 /* MySizeView.swift */; };
+		66A2097526EB968B00851231 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A2097426EB968B00851231 /* MyTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		66A2096326EB87CB00851231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66A2096626EB87CB00851231 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66A2096826EB87CB00851231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A2096E26EB8F6300851231 /* UnifrakturMaguntia */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UnifrakturMaguntia; sourceTree = "<group>"; };
+		66A2097026EB90A300851231 /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
+		66A2097226EB91D500851231 /* MySizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySizeView.swift; sourceTree = "<group>"; };
+		66A2097426EB968B00851231 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,12 @@
 		66A2095E26EB87CA00851231 /* classic03 */ = {
 			isa = PBXGroup;
 			children = (
+				66A2097026EB90A300851231 /* Montserrat */,
+				66A2096E26EB8F6300851231 /* UnifrakturMaguntia */,
 				66A2095F26EB87CA00851231 /* classic03App.swift */,
 				66A2096126EB87CA00851231 /* ContentView.swift */,
+				66A2097226EB91D500851231 /* MySizeView.swift */,
+				66A2097426EB968B00851231 /* MyTabView.swift */,
 				66A2096326EB87CB00851231 /* Assets.xcassets */,
 				66A2096826EB87CB00851231 /* Info.plist */,
 				66A2096526EB87CB00851231 /* Preview Content */,
@@ -127,7 +139,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A2096726EB87CB00851231 /* Preview Assets.xcassets in Resources */,
+				66A2097126EB90A300851231 /* Montserrat in Resources */,
 				66A2096426EB87CB00851231 /* Assets.xcassets in Resources */,
+				66A2096F26EB8F6300851231 /* UnifrakturMaguntia in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A2097326EB91D500851231 /* MySizeView.swift in Sources */,
 				66A2096226EB87CA00851231 /* ContentView.swift in Sources */,
+				66A2097526EB968B00851231 /* MyTabView.swift in Sources */,
 				66A2096026EB87CA00851231 /* classic03App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
